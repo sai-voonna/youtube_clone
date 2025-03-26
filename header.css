@@ -1,0 +1,128 @@
+.header {
+  display: flex;
+  height: 55px;
+  justify-content: space-between;
+  padding-left: 2px;
+  padding-right:20px;
+  align-items: center;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  right: 0;
+  left: 0;
+  border-bottom-color: rgb(228, 228, 228);
+  background-color: white;
+  border-width: 1px;
+  border-style: solid;
+}
+.left-section {
+  display: flex;
+  margin-left: 20px;
+}
+
+.middel-section {
+  display: flex;
+  flex: 1;
+  margin-right: 20px; 
+}
+
+
+.right-section {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+}
+
+img {
+  height: 40px;
+  
+}
+
+.hambu {
+  height: 24px;
+  width: 24px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.logo {
+  height: 20px;
+  width: 90px;
+  cursor: pointer;
+}
+
+
+.search-box {
+  height: 40px;
+  border-color: rgb(210, 206, 206);
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 2px; 
+  width: 350px;
+  margin-left: 380px;
+}
+
+.search-img {
+  width: 30px;
+  height: 40px;
+  padding-left: 15px;
+}
+
+.search-div {
+  width: 60px;
+  height: 42px;
+  background-color: rgb(242, 242, 242);
+  margin-left: -2px;
+  border-radius: 2px;
+  border-color: rgb(210, 206, 206);
+  border-width: 1px;
+  border-style: solid;
+  cursor: pointer;
+}
+
+.voice-img {
+  height: 24px;
+  width: 24px;
+  padding-top: 7px;
+  padding-left: 7px;
+}
+
+.voice-image-div {
+  background-color: rgb(247, 247, 247);
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin-left:8px ;
+  cursor: pointer;
+}
+
+::placeholder {
+  padding-left: 10px;
+  font-family: arial;
+  font-size: 15px;
+}
+
+.upload {
+  height: 24px;
+  width: 24px;
+  cursor: pointer;
+}
+
+.apps {
+  height: 24px;
+  width: 24px;
+  cursor: pointer;
+}
+
+.notif {
+  height: 24px;
+  width: 24px;
+  cursor: pointer;
+}
+
+.channel {
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+  cursor: pointer;
+}

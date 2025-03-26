@@ -1,0 +1,31 @@
+.left-header {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  background-color: rgb(255, 255, 255);
+  top: 54px;
+  left: 0;
+  bottom: 0;
+  padding-right: px;
+  padding-top: 25px;
+ 
+}
+
+.home {
+  height: 24px;
+  width: 24px;
+  padding-left: 22px;
+}
+
+.text {
+  margin-bottom: 30px;
+  font-family: Roboto, arial;
+  font-size: 10px;
+  text-align: center;
+  margin-top: 4px;
+}
+
+.home-div:hover {
+  background-color: rgb(235, 235, 235);
+  cursor: pointer;
+}
